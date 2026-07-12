@@ -6,51 +6,68 @@
 <title>SIKA Web — Knowledge Network</title>
 <meta name="description" content="SIKA Web is an autonomous static knowledge network covering Ghana, the Washington Commanders, Maryland, ecommerce and AI — built with local AI.">
 <style>
-  body{font-family:-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;max-width:760px;margin:2rem auto;padding:0 1rem;line-height:1.6;color:#1a1a1a}
-  h1{font-size:2rem;line-height:1.2}
-  h2{font-size:1.2rem;margin-top:2rem;border-bottom:2px solid #0a66c2;padding-bottom:.3rem;color:#0a66c2}
-  a{color:#0a66c2;text-decoration:none}
+  :root{--bg:#f7f8fa;--card:#fff;--ink:#1a1d24;--muted:#6b7280;--accent:#c8962a;--accent-soft:#f3e9d2;--line:#e8eaed;--link:#0b5cad}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;line-height:1.7;font-size:17px}
+  .topbar{background:linear-gradient(120deg,#1a1d24,#2b2f3a);color:#fff;padding:1rem 0}
+  .topbar .wrap{display:flex;align-items:center;justify-content:space-between;gap:1rem}
+  .brand{font-weight:700;font-size:1.15rem;letter-spacing:.5px;color:#fff;text-decoration:none}
+  .brand span{color:var(--accent)}
+  .topbar nav a{color:#cfd3dc;font-size:.9rem;margin-left:1rem;text-decoration:none}
+  .topbar nav a:hover{color:#fff}
+  .wrap{max-width:760px;margin:0 auto;padding:0 1.1rem}
+  main{background:var(--card);margin:1.6rem auto;padding:2.2rem 2rem;border-radius:14px;box-shadow:0 1px 3px rgba(0,0,0,.06),0 8px 24px rgba(0,0,0,.04)}
+  h1{font-size:2rem;line-height:1.2;margin:.2rem 0}
+  .tag{display:inline-block;background:var(--accent-soft);color:#8a6418;border-radius:6px;padding:.15rem .6rem;font-size:.75rem;font-weight:600;margin-bottom:.6rem}
+  h2{font-size:1.15rem;margin-top:2rem;border-bottom:2px solid var(--accent);padding-bottom:.3rem;color:var(--accent)}
+  a{color:var(--link);text-decoration:none}
   a:hover{text-decoration:underline}
-  .tag{display:inline-block;background:#eef3f8;color:#0a66c2;border-radius:4px;padding:.1rem .5rem;font-size:.8rem;margin-bottom:.5rem}
-  ul{list-style:none;padding:0}
-  li{margin:.4rem 0}
-  footer{margin-top:3rem;font-size:.8rem;color:#999;border-top:1px solid #eee;padding-top:1rem}
+  .grid{display:grid;gap:.5rem}
+  .grid a{display:block;background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:.6rem .9rem;font-size:.92rem;transition:border-color .15s,transform .15s}
+  .grid a:hover{border-color:var(--accent);transform:translateX(2px)}
+  footer{text-align:center;color:var(--muted);font-size:.8rem;padding:2rem 1rem 3rem}
+  footer a{color:var(--link);text-decoration:none}
 </style>
 </head>
 <body>
-<h1>SIKA Web</h1>
-<p class="tag">Autonomous knowledge network · built with local AI</p>
-<p>SIKA Web is a growing library of concise, sourced overviews across the topics that matter — Ghana and African football, the Washington Commanders, Maryland life, ecommerce, and artificial intelligence. New pages are added automatically every few hours.</p>
+<div class="topbar"><div class="wrap">
+  <a class="brand" href="index.html">SIKA<span>Web</span></a>
+  <nav><a href="index.html">Home</a><a href="ledger.html">Ledger</a><a href="sitemap.xml">Sitemap</a></nav>
+</div></div>
+<main>
+  <div class="tag">Autonomous knowledge network · built with local AI</div>
+  <h1>SIKA Web</h1>
+  <p>A growing library of concise, sourced overviews across the topics that matter — Ghana and African football, the Washington Commanders, Maryland life, ecommerce, and artificial intelligence. New pages are added automatically every few hours.</p>
 
-<h2>⚽ Ghana & African Football</h2>
-<ul>
-  <li><a href="ghana-national-football-team.html">Ghana National Football Team (Black Stars)</a></li>
-  <li><a href="ghana-premier-league.html">Ghana Premier League</a></li>
-  <li><a href="black-stars.html">Black Stars</a></li>
-  <li><a href="kwame-nkrumah.html">Kwame Nkrumah</a></li>
-  <li><a href="accra.html">Accra</a></li>
-</ul>
+  <h2>⚽ Ghana & African Football</h2>
+  <div class="grid">
+    <a href="ghana-national-football-team.html">Ghana National Football Team (Black Stars)</a>
+    <a href="ghana-premier-league.html">Ghana Premier League</a>
+    <a href="black-stars.html">Black Stars</a>
+    <a href="kwame-nkrumah.html">Kwame Nkrumah</a>
+    <a href="accra.html">Accra</a>
+  </div>
 
-<h2>🏈 Washington Commanders / NFL</h2>
-<ul>
-  <li><a href="washington-commanders.html">Washington Commanders</a></li>
-  <li><a href="jayden-daniels.html">Jayden Daniels</a></li>
-</ul>
+  <h2>🏈 Washington Commanders / NFL</h2>
+  <div class="grid">
+    <a href="washington-commanders.html">Washington Commanders</a>
+    <a href="jayden-daniels.html">Jayden Daniels</a>
+  </div>
 
-<h2>🛒 Ecommerce & AI</h2>
-<ul>
-  <li><a href="drop-shipping.html">Drop Shipping</a></li>
-  <li><a href="user-generated-content.html">User-Generated Content</a></li>
-  <li><a href="artificial-intelligence-in-agriculture.html">AI in Agriculture</a></li>
-</ul>
+  <h2>🛒 Ecommerce & AI</h2>
+  <div class="grid">
+    <a href="drop-shipping.html">Drop Shipping</a>
+    <a href="user-generated-content.html">User-Generated Content</a>
+    <a href="artificial-intelligence-in-agriculture.html">AI in Agriculture</a>
+  </div>
 
-<h2>📍 Maryland Local</h2>
-<ul>
-  <li><a href="laurel-maryland.html">Laurel, Maryland</a></li>
-</ul>
+  <h2>📍 Maryland Local</h2>
+  <div class="grid">
+    <a href="laurel-maryland.html">Laurel, Maryland</a>
+  </div>
 
-<p style="margin-top:2rem"><a href="ledger.html">📊 Self-Improvement Ledger (build log)</a></p>
-
-<footer>SIKA Web · Part of an autonomous static knowledge network · <a href="sitemap.xml">Sitemap</a></footer>
+  <p style="margin-top:2rem"><a href="ledger.html">📊 Self-Improvement Ledger (build log)</a></p>
+</main>
+<footer>SIKA Web · Autonomous static knowledge network · <a href="sitemap.xml">Sitemap</a></footer>
 </body>
 </html>
