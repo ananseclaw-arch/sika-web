@@ -6,42 +6,39 @@
 <title>Kwame Nkrumah — SIKA Web</title>
 <meta name="description" content="Kwame Nkrumah — a concise, sourced overview.">
 <style>
-  :root{
-    --bg:#f7f8fa; --card:#ffffff; --ink:#1a1d24; --muted:#6b7280;
-    --accent:#c8962a; --accent-soft:#f3e9d2; --line:#e8eaed; --link:#0b5cad;
-  }
+  :root{--bg:#f7f8fa;--card:#fff;--ink:#1a1d24;--muted:#6b7280;--accent:#c8962a;--accent-soft:#f3e9d2;--line:#e8eaed;--link:#0b5cad}
   *{box-sizing:border-box}
-  body{margin:0;background:var(--bg);color:var(--ink);
-    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-    line-height:1.7;font-size:17px;-webkit-font-smoothing:antialiased}
-  .topbar{background:linear-gradient(120deg,#1a1d24,#2b2f3a);color:#fff;padding:1rem 0}
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;line-height:1.7;font-size:17px;-webkit-font-smoothing:antialiased}
+  .topbar{background:linear-gradient(120deg,#1a1d24,#2b2f3a);color:#fff;padding:1rem 0;position:sticky;top:0;z-index:10}
   .topbar .wrap{display:flex;align-items:center;justify-content:space-between;gap:1rem}
   .brand{font-weight:700;font-size:1.15rem;letter-spacing:.5px;color:#fff;text-decoration:none}
   .brand span{color:var(--accent)}
   .topbar nav a{color:#cfd3dc;font-size:.9rem;margin-left:1rem;text-decoration:none}
   .topbar nav a:hover{color:#fff}
-  .wrap{max-width:760px;margin:0 auto;padding:0 1.1rem}
-  main{background:var(--card);margin:1.6rem auto;padding:2.2rem 2rem;border-radius:14px;
-    box-shadow:0 1px 3px rgba(0,0,0,.06),0 8px 24px rgba(0,0,0,.04)}
-  h1{font-size:2rem;line-height:1.2;margin:.2rem 0 0}
-  .meta{color:var(--muted);font-size:.85rem;margin:.4rem 0 1.6rem;
-    padding-bottom:1rem;border-bottom:1px solid var(--line)}
-  .niche-tag{display:inline-block;background:var(--accent-soft);color:#8a6418;
-    border-radius:6px;padding:.15rem .6rem;font-size:.75rem;font-weight:600;margin-bottom:.6rem}
+  .wrap{max-width:780px;margin:0 auto;padding:0 1.1rem}
+  main{background:var(--card);margin:1.6rem auto;padding:2.2rem 2rem;border-radius:14px;box-shadow:0 1px 3px rgba(0,0,0,.06),0 8px 24px rgba(0,0,0,.04)}
+  .crumb{font-size:.8rem;color:var(--muted);margin-bottom:.4rem}
+  .crumb a{color:var(--muted);text-decoration:none}
+  .crumb a:hover{color:var(--link)}
+  .niche-tag{display:inline-block;background:var(--accent-soft);color:#8a6418;border-radius:6px;padding:.15rem .6rem;font-size:.75rem;font-weight:600;margin-bottom:.6rem}
+  h1{font-size:2rem;line-height:1.2;margin:.1rem 0 0}
+  .meta{color:var(--muted);font-size:.85rem;margin:.5rem 0 1.4rem;padding-bottom:1rem;border-bottom:1px solid var(--line)}
   .content p{margin:0 0 1.1rem}
-  .content h2,.content h3{margin:1.6rem 0 .6rem;line-height:1.3}
+  .content h2,.content h3{margin:1.6rem 0 .6rem;line-height:1.3;scroll-margin-top:80px}
   .content a{color:var(--link);text-decoration:none}
   .content a:hover{text-decoration:underline}
+  .toc{background:var(--bg);border:1px solid var(--line);border-left:3px solid var(--accent);border-radius:8px;padding:.9rem 1.1rem;margin:0 0 1.6rem;font-size:.9rem}
+  .toc strong{display:block;margin-bottom:.4rem;color:var(--muted);text-transform:uppercase;font-size:.75rem;letter-spacing:.08em}
+  .toc a{color:var(--link);text-decoration:none;display:block;padding:.15rem 0}
+  .toc a:hover{text-decoration:underline}
   .related{margin-top:2.2rem;padding-top:1.4rem;border-top:2px solid var(--line)}
   .related h3{font-size:.95rem;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);margin:0 0 .8rem}
   .related ul{list-style:none;padding:0;margin:0;display:grid;gap:.5rem}
-  .related li a{display:block;background:var(--bg);border:1px solid var(--line);
-    border-radius:8px;padding:.6rem .9rem;color:var(--link);text-decoration:none;font-size:.92rem;
-    transition:border-color .15s,transform .15s}
+  .related li a{display:block;background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:.6rem .9rem;color:var(--link);text-decoration:none;font-size:.92rem;transition:border-color .15s,transform .15s}
   .related li a:hover{border-color:var(--accent);transform:translateX(2px)}
   footer{text-align:center;color:var(--muted);font-size:.8rem;padding:2rem 1rem 3rem}
   footer a{color:var(--link);text-decoration:none}
-  @media(max-width:520px){main{padding:1.5rem 1.1rem;border-radius:0}h1{font-size:1.6rem}}
+  @media(max-width:520px){main{padding:1.5rem 1.1rem}h1{font-size:1.6rem}.toc{display:none}}
 </style>
 </head>
 <body>
@@ -50,9 +47,11 @@
   <nav><a href="index.html">Home</a><a href="ledger.html">Ledger</a><a href="sitemap.xml">Sitemap</a></nav>
 </div></div>
 <main>
+  <div class="crumb"><a href="index.html">SIKA Web</a> › General</div>
   <div class="niche-tag">General</div>
   <h1>Kwame Nkrumah</h1>
-  <div class="meta">Published 2026-07-12 · SIKA Web autonomous knowledge network</div>
+  <div class="meta">Published 2026-07-12 · 2 min read · SIKA Web autonomous knowledge network</div>
+  
   <div class="content">
 <h1>Kwame Nkrumah</h1>
 <div class="meta">Published 2026-07-11 · Ghana History</div>
@@ -60,15 +59,6 @@
 <p>Nkrumah’s influence extended far beyond Ghana, as he became a leading advocate of Pan-Africanism, a movement dedicated to uniting African nations and fostering solidarity among people of African descent. His commitment to this cause earned him recognition as a founding member of the Organisation of African Unity (OAU), established in 1963 to promote collective self-reliance and solidarity among African states. His advocacy for African unity and decolonization resonated across the continent, solidifying his reputation as a key architect of pan-African thought.  </p>
 <p>In 1962, Nkrumah reportedly received the Lenin Peace Prize from the Soviet Union, an honor acknowledging his efforts to advance global peace and anti-imperialist causes. His work as a political theorist and revolutionary underscored his belief in the transformative power of collective action and the necessity of African self-determination. While his legacy remains complex, Nkrumah’s contributions to Ghana’s independence and the broader African liberation movement continue to be studied and debated. His vision for a united Africa, though not fully realized during his lifetime, remains a cornerstone of modern Pan-African discourse.</p>
 <p><em>Note: some details await source verification.</em></p>
-<div class="related">
-  <strong>Related pages:</strong>
-  <ul>    <li><a href="ghana-national-football-team.html">ghana-national-football-team</a></li>
-    <li><a href="artificial-intelligence-in-agriculture.html">artificial-intelligence-in-agriculture</a></li>
-    <li><a href="dropshipping.html">dropshipping</a></li>
-    <li><a href="washington-commanders.html">washington-commanders</a></li>
-    <li><a href="black-stars.html">black-stars</a></li></ul>
-</div>
-<footer>Part of an autonomous static knowledge network · Built with local AI · <a href="index.html">Site index</a></footer>
 </div>
   <div class="related">
     <h3>Related pages</h3>
