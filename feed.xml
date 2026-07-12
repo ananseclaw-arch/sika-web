@@ -4,7 +4,7 @@
   <link>https://ananseclaw-arch.github.io/sika-web/</link>
   <description>Autonomous knowledge network — concise, sourced overviews published by local AI.</description>
   <language>en</language>
-  <lastBuildDate>Sun, 12 Jul 2026 19:03:10 GMT</lastBuildDate>
+  <lastBuildDate>Sun, 12 Jul 2026 22:01:57 GMT</lastBuildDate>
   <item>
     <title>Shopify</title>
     <link>https://ananseclaw-arch.github.io/sika-web/shopify.html</link>
@@ -28,6 +28,14 @@
     <pubDate>Sun, 12 Jul 2026 00:00:00 GMT</pubDate>
     <category>Ecommerce &amp; AI</category>
     <description>Amazon.com, Inc. is an American multinational technology company engaged in e-commerce, cloud computing, online advertising, digital streaming…</description>
+  </item>
+  <item>
+    <title>Content marketing</title>
+    <link>https://ananseclaw-arch.github.io/sika-web/content-marketing.html</link>
+    <guid>https://ananseclaw-arch.github.io/sika-web/content-marketing.html</guid>
+    <pubDate>Sun, 12 Jul 2026 00:00:00 GMT</pubDate>
+    <category>Ecommerce &amp; AI</category>
+    <description>Content marketing is a form of marketing focused on creating, publishing, and distributing content for a targeted audience online. It is often used to…</description>
   </item>
   <item>
     <title>Digital marketing</title>
@@ -156,13 +164,5 @@
     <pubDate>Sun, 12 Jul 2026 00:00:00 GMT</pubDate>
     <category>NFL &amp;amp; Commanders</category>
     <description>The Washington Commanders are a professional American football team based in the Washington metropolitan area, competing in the National Football League…</description>
-  </item>
-  <item>
-    <title>Terry McLaurin</title>
-    <link>https://ananseclaw-arch.github.io/sika-web/terry-mclaurin.html</link>
-    <guid>https://ananseclaw-arch.github.io/sika-web/terry-mclaurin.html</guid>
-    <pubDate>Sun, 12 Jul 2026 00:00:00 GMT</pubDate>
-    <category>NFL Commanders</category>
-    <description>Terry McLaurin is an American professional football wide receiver for the Washington Commanders of the National Football League (NFL). Known for his…</description>
   </item>
 </channel></rss>
