@@ -49,20 +49,6 @@
   "desc": "The Ghana Premier League (GPL) stands as the pinnacle of professional association football in Ghana, governed by the Ghana Football Association (GFA)…"
  },
  {
-  "slug": "laurel-maryland.html",
-  "title": "Laurel Maryland",
-  "niche": "Maryland Local",
-  "date": "2026-07-12",
-  "desc": "[GEN_ERROR: timed out]"
- },
- {
-  "slug": "laurel,-maryland.html",
-  "title": "Laurel, Maryland",
-  "niche": "Maryland Local",
-  "date": "2026-07-12",
-  "desc": "Laurel is a city in Prince George's County, Maryland, United States. It is located between Washington, D.C., and Baltimore on the banks of the Patuxent…"
- },
- {
   "slug": "jayden-daniels.html",
   "title": "Jayden Daniels",
   "niche": "NFL & Commanders",
@@ -75,5 +61,12 @@
   "niche": "NFL & Commanders",
   "date": "2026-07-12",
   "desc": "The Washington Commanders are a professional American football team based in the Washington metropolitan area, competing in the National Football League…"
+ },
+ {
+  "slug": "laurel-maryland.html",
+  "title": "Laurel, Maryland",
+  "niche": "Maryland Local",
+  "date": "2026-07-12",
+  "desc": "Laurel is a city in Prince George's County, Maryland, United States, located midway between Washington, D.C. and Baltimore along the Patuxent River…"
  }
 ]
