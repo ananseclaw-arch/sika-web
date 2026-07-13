@@ -1,5 +1,12 @@
 [
  {
+  "slug": "print-on-demand.html",
+  "title": "Print on demand",
+  "niche": "Dropshipping",
+  "date": "2026-07-13",
+  "desc": "Print on demand (POD) is a printing technology and business process in which book copies are not printed until the company receives an order, allowing…"
+ },
+ {
   "slug": "shopify.html",
   "title": "Shopify",
   "niche": "Ecommerce",
@@ -103,13 +110,6 @@
   "niche": "Ecommerce & AI",
   "date": "2026-07-12",
   "desc": "A payment gateway is a merchant service provided by an e-commerce application service provider that authorizes credit card or direct payment processing…"
- },
- {
-  "slug": "print-on-demand.html",
-  "title": "Print on demand",
-  "niche": "Ecommerce & AI",
-  "date": "2026-07-12",
-  "desc": "Print on demand (POD) is a printing technology and business process in which book copies are not printed until the company receives an order, allowing…"
  },
  {
   "slug": "search-engine-optimization.html",
