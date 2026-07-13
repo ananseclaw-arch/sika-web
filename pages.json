@@ -105,6 +105,13 @@
   "desc": "Digital marketing is a component of marketing that uses digital technologies such as desktop computers, mobile phones, and other digital media platforms…"
  },
  {
+  "slug": "drop-shipping.html",
+  "title": "Drop shipping",
+  "niche": "Ecommerce & AI",
+  "date": "2026-07-13",
+  "desc": "Drop shipping is a form of retail business in which the seller accepts customer orders without keeping stock on hand. Instead, the seller transfers the…"
+ },
+ {
   "slug": "e-commerce.html",
   "title": "E-commerce",
   "niche": "Ecommerce & AI",
@@ -208,13 +215,6 @@
   "niche": "Ecommerce &amp; AI",
   "date": "2026-07-12",
   "desc": "Artificial intelligence (AI) refers to the capacity of computational systems to execute tasks traditionally requiring human intelligence, such as…"
- },
- {
-  "slug": "drop-shipping.html",
-  "title": "Drop shipping",
-  "niche": "Ecommerce &amp; AI",
-  "date": "2026-07-12",
-  "desc": "Drop shipping is a retail business model in which a seller accepts customer orders without maintaining inventory. Instead of holding stock, the seller…"
  },
  {
   "slug": "user-generated-content.html",
